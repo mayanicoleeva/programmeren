@@ -1,0 +1,70 @@
+body {
+    background-color: pink;
+    font-family:sans-serif;
+}
+h1 {
+    text-align: center;
+}
+
+#hint {
+    background-color: white;
+    padding: 1em;
+    text-align: center;
+    margin-left: 25em;
+    margin-right: 25em;
+    border-radius: 1em;
+}
+
+button {
+    background-color: hotpink;
+    border: none;
+    padding: 3%;
+    width: 20%;
+    border-radius: 0.5em;
+}
+
+#pusheen {
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 5%;
+
+}
+
+#buttons {
+    width: 40%;
+    margin-left: 34%;
+  
+}
+
+#energieTekst {
+    text-align: center;
+}
+#positieEnergieBar {
+    width: 30vw;
+    height: 10vh;
+    margin-left: 35vw;
+    position: absolute;
+    margin-top: -2%;
+}
+
+#progressBuiten {
+    width: 30vw;
+    height: 5vh;
+    position: absolute;
+    background-color: hotpink;
+    border-radius: 5vh;
+}
+
+#progressBinnen {
+    margin-top: 1vh;
+    margin-left: 5%;
+    width: 80%;
+    height: 3vh;
+    position: inherit;
+    background-color: lightblue;
+    border-radius: 3vh;
+}
+
+
+
+
