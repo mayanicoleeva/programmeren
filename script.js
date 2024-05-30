@@ -1,7 +1,11 @@
 console.log("yay")
 
+let gebruikersnaam;
 let energieBar = 80;
 let energie = document.querySelector('#energie');
+const naam = document.querySelector("#naamInvullen");
+const buttonNaam = document.querySelector("#buttonNaam");
+const h1 = document.querySelector("h1");
 const hintP = document.querySelector("#hint");
 const pusheen = document.querySelector("#pusheen");
 const buttonEten = document.querySelector("#buttonEten");
@@ -35,6 +39,11 @@ function feestje() {
     console.log("Party!");
     pusheen.src = "pusheenparty.webp";
     
+}
+
+function logInput() {
+    gebruikersnaam = naamInvullen.value;
+    h1.textContent = "Hi, " + gebruikersnaam + ". Ik ben Pusheen";
 }
 
 function groter(waardePlus) {
@@ -90,3 +99,4 @@ buttonSpelen.addEventListener('click',spelen);
 buttonFeestje.addEventListener('click',feestje);
 buttonFeestje.addEventListener('click', play);
 buttonSlapen.addEventListener('click', geluid);
+buttonNaam.addEventListener('click', logInput);
